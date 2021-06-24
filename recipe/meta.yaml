@@ -1,5 +1,5 @@
 {% set name = "types-kazoo" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-kazoo-{{ version }}.tar.gz
-  sha256: 0e2e0557bb957cbc9a6396bbe942d21363ffa14716bf24ad2fb2f9a23a39e89b
+  sha256: 7074df963a9439f17a705e8f24369187c564930cf8d8755c4b2ebab338b6fe8f
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
 
 test:
   commands:
-    - test -f $SP_DIR/kazoo-stubs/__init__.pyi
+    - test -f $SP_DIR/kazoo-python2-stubs/__init__.pyi
 
 
 about:
