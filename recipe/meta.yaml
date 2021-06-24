@@ -1,5 +1,5 @@
 {% set name = "types-kazoo" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-kazoo-{{ version }}.tar.gz
-  sha256: 7074df963a9439f17a705e8f24369187c564930cf8d8755c4b2ebab338b6fe8f
+  sha256: 97a3b95e2437fcc093506e822b009c1ee9e4db6906631b5320117f0d2be4aa4a
 
 build:
   number: 0
