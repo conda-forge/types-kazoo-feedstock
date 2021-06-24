@@ -24,7 +24,7 @@ requirements:
 
 test:
   commands:
-    - test -f $SP_DIR/kazoo-stubs/__init__.pyi
+    - test -f $SP_DIR/kazoo-python2-stubs/__init__.pyi
 
 
 about:
